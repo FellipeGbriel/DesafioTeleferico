@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2024/04/23 10:37:45.250,=C:\Users\Felipe Silva\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/04/23 10:46:34.042,C:\Users\Felipe Silva\Documents\Embarcadero\Studio\Projects\Teleférico\teleferico.pas=C:\Users\Felipe Silva\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/04/23 10:46:34.042,C:\Users\Felipe Silva\Documents\Embarcadero\Studio\Projects\Teleférico\teleferico.dfm=C:\Users\Felipe Silva\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2024/04/23 10:47:02.182,C:\Users\Felipe Silva\Documents\Embarcadero\Studio\Projects\Teleférico\teleferico1.dproj=C:\Users\Felipe Silva\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
