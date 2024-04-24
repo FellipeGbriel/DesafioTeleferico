@@ -49,7 +49,9 @@ begin
   Estudantes := 0;
 
   ProfessoresCima := 0;
-  ProfessoresBaixo :=0;
+  ProfessoresBaixo := 0;
+
+  ViagensEstudantes := 0;
 
   var Contador := 0;
 
@@ -62,8 +64,13 @@ begin
   else if RadioGroup1.ItemIndex = 0 then
   begin
 
-    Estudantes := StrtoInt(Edit1.Text);
-    ProfessoresBaixo := StrtoInt(Edit2.Text);
+      try
+        Estudantes := StrtoInt(Edit1.Text);
+        ProfessoresBaixo := StrtoInt(Edit2.Text);
+      except
+        ShowMessage('Por favor, digite números válidos.');
+        Estudantes := 0;
+      end;
 
       while Estudantes > 0 do
       begin
@@ -117,8 +124,13 @@ begin
   else
   begin
 
-    Estudantes := StrtoInt(Edit1.Text);
-    ProfessoresCima := StrtoInt(Edit2.Text);
+    try
+      Estudantes := StrtoInt(Edit1.Text);
+      ProfessoresCima := StrtoInt(Edit2.Text);
+    except
+      ShowMessage('Por favor, digite números válidos.');
+      Estudantes := 0;
+    end;
 
       while Estudantes > 0 do
       begin
