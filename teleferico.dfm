@@ -14,9 +14,9 @@ object Form1: TForm1
   object Label1: TLabel
     Left = 88
     Top = 48
-    Width = 417
+    Width = 181
     Height = 28
-    Caption = 'Teste de desafio, estudantes usando o telef'#233'rico.'
+    Caption = 'Desafio do Telef'#233'rico'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -20
@@ -39,11 +39,25 @@ object Form1: TForm1
     Caption = 'N'#250'mero de professores'
   end
   object Label4: TLabel
-    Left = 408
-    Top = 291
-    Width = 108
+    Left = 392
+    Top = 350
+    Width = 152
     Height = 15
-    Caption = 'Viagens Necess'#225'rias:'
+    Caption = 'Total de Viagens Necess'#225'rias:'
+  end
+  object Label5: TLabel
+    Left = 392
+    Top = 371
+    Width = 96
+    Height = 15
+    Caption = 'Viagens de Subida'
+  end
+  object Label6: TLabel
+    Left = 392
+    Top = 392
+    Width = 101
+    Height = 15
+    Caption = 'Viagens de Descida'
   end
   object Edit1: TEdit
     Left = 88
@@ -60,8 +74,8 @@ object Form1: TForm1
     TabOrder = 1
   end
   object Button1: TButton
-    Left = 472
-    Top = 184
+    Left = 414
+    Top = 173
     Width = 91
     Height = 45
     Caption = 'Calcular'
