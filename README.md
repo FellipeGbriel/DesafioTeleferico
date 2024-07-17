@@ -1,7 +1,7 @@
 # DesafioTeleferico
 Desafio de cálculo de viagens de um teleférico.
 
-Deve-se calcular quantas viagens são necessárias para levar todos os estudantes de um ponto ao outro, contando idas e voltas.
+Deve-se calcular quantas viagens são necessárias para levar todos os estudantes e professores de um ponto ao outro, contando idas e voltas.
 
 O teleférico segue as seguintes regras:
 
